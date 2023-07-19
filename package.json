@@ -1,0 +1,41 @@
+{
+  "name": "metawin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm --experimental-specifier-resolution=node ./src/index.ts",
+    "test": "mocha --require ts-node/register 'test/*.spec.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.2",
+    "@types/stoppable": "^1.1.1",
+    "chai": "^4.3.7",
+    "esm": "^3.2.25",
+    "mocha": "^10.2.0",
+    "ts-mockito": "^2.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "chai-http": "^4.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
+    "portfinder": "^1.0.32",
+    "stoppable": "^1.1.0",
+    "typescript-ioc": "^3.2.2"
+  }
+}
