@@ -8,4 +8,4 @@
 1. I would be more conservative with the abstractions and try to avoid them where I can
 2. I would add integration tests to at least test if the endpoints return correct status codes
 3. I would try to optimize the code a little bit after meeting the requirements
-4. I would use node-ts instead of experimental nodejs features for TypeScript transpilation or even setup webpack depending on the project context.
+4. I would use node-ts instead of experimental nodejs features for TypeScript transpilation or even setup webpack/vite depending on the project context.
